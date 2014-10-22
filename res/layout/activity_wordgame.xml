@@ -1,0 +1,40 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/heap_background"
+    android:gravity="center"
+    android:padding="30dip"
+    android:id="@+id/word_game_start_screen"
+    tools:context="neu.edu.madcource.timwright.WordGame" >
+
+    <TextView
+      android:text="@string/bg_home_title"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginBottom="25dip"
+      android:textSize="24.5sp" />
+    <Button
+      android:id="@+id/bg_start_button"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/bg_home_start" />
+    <Button
+        android:id="@+id/bg_acknowledgements_button"
+        android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:text="@string/bg_acknowledgements" />
+    <Button
+        android:id="@+id/bg_music_button"
+        android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:text="@string/bg_home_music" />
+    <Button
+      android:id="@+id/bg_exit_button"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/bg_home_exit" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/heap_background"
+    android:gravity="center"
+    android:padding="30dip"
+    android:id="@+id/word_game_start_screen"
+    tools:context="neu.edu.madcource.timwright.LoadingScreen" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/get_ready"
+        android:contentDescription="@string/loading_screen_ready" />
+
+    <TextView
+        android:text="@string/loading_screen_instructions"
+      	android:layout_height="wrap_content"
+      	android:layout_width="wrap_content"
+      	android:layout_marginTop="25dip"
+      	android:layout_marginBottom="25dip"
+      	android:textSize="20sp" />
+
+</LinearLayout>

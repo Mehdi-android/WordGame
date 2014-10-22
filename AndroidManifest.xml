@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="neu.edu.madcource.timwright"
+    android:versionCode="4"
+    android:versionName="4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blank_tile"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data android:name="com.google.android.gms.version"
+        		android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Prefs"
+            android:label="@string/settings_title" >
+        </activity>
+        <activity
+            android:name=".LoadingScreen"
+            android:label="@string/title_activity_loading_screen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".WordGame"
+            android:label="@string/title_activity_bananagrams"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BananagramGame"
+            android:label="@string/title_activity_bananagram_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BananaPause"
+            android:label="@string/title_activity_banana_pause" >
+        </activity>
+        <activity
+            android:name=".BGAcknow"
+            android:label="@string/title_activity_bgacknow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Bananagrams" />
+        </activity>
+    </application>
+    
+</manifest>

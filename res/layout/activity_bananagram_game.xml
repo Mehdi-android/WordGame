@@ -1,0 +1,19 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/heap_background"
+    android:gravity="top" >
+    
+    <neu.edu.madcource.timwright.HeapView
+        android:id="@+id/heapview_id"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp" />
+    
+    <neu.edu.madcource.timwright.BoardView
+        android:id="@+id/boardview_id"
+        android:layout_width="fill_parent"
+        android:layout_height="325dp"/>
+
+</LinearLayout>

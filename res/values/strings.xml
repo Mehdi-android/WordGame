@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_loading_screen">Loading</string>
+    <string name="settings_title">Settings</string>
+    <string name="title_activity_bananagrams">Word Game</string>
+    <string name="title_activity_banana_pause">Word Game Pause</string>
+    <string name="title_activity_bananagram_game">Word Game</string>
+    <string name="title_activity_bgacknow">Word Game Acknowledgements</string>
+    <string name="app_name">NUMAD14F-TimWright</string>
+    <string name="action_settings">Settings</string>
+    <!-- Bananagram Strings -->
+    <string name="bg_home_title">Word Game</string>
+    <string name="bg_home_start">New Game</string>
+    <string name="bg_home_exit">Exit</string>
+    <string name="bg_home_music">Music On/Off</string>
+    <string name="bg_pile_size_select">Select Pile Size</string>
+    <string name="eleventiles">24 Tiles</string>
+    <string name="fifteentiles">32 Tiles</string>
+    <string name="twentyonetiles">48 Tiles</string>
+    <string name="pause_resume">Resume</string>
+    <string name="pause_quit">Quit Game</string>
+    <string name="pause_save_and_quit">Save and Quit</string>
+    <string name="split_button">Split!</string>
+    <string name="pause_button">Pause</string>
+    <string name="dump_button">Dump</string>
+    <string name="score_button">Score: 0</string>
+    <string name="loading_screen_ready">Get ready!</string>
+    <string name="loading_screen_instructions">Move tiles to make words</string>
+    <string name="bg_acknowledgements">Acknowledgements:</string>
+    <string name="bg_acknowledgements_txt">All tile art created by me\n\n
+        Code resources:\n
+        developer.android.com\n
+        androidexample.com/Splash_screen_-_Android_Example\n
+        The Sudoku example from Hello Android\n\n
+        Thank you to the TAs during the hack sessions for giving me pointers\n</string>    
+
+</resources>
